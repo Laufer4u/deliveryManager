@@ -11,6 +11,11 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    frame: true,
+    icon: "C:/Users/Laufer/Repos/deliveryManager/data" + "/deliveryIcon.ico",
+    title: "Delivery",
+    //simpleFullscreen: true,
+    //fullscreenable: true,
     webPreferences: {
       nodeIntegration: true
     }
