@@ -12,7 +12,7 @@ function createWindow () {
     width: 800,
     height: 600,
     frame: true,
-    icon: "./data/deliveryIcon.ico",
+    icon: "../data/deliveryIcon.ico",
     title: "Delivery",
     //simpleFullscreen: true,
     //fullscreenable: true,
@@ -22,7 +22,7 @@ function createWindow () {
   });
 
   // and load the index.html of the app.
-  mainWindow.loadFile('web/index.html');
+  mainWindow.loadFile('../web/index.html');
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
