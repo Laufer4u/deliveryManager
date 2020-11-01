@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Laufer4u/deliveryManager/issues"
   },
-  "homepage": "https://github.com/Laufer4u/deliveryManager#readme"
+  "homepage": "https://github.com/Laufer4u/deliveryManager#readme",
+  "devDependencies": {
+    "electron": "^10.1.5"
+  }
 }
