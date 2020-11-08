@@ -5,7 +5,7 @@
   "main": "window.js",
   "scripts": {
     "start": "node src/main.js",
-    "web-build": "cp src/main.js web/script.js"
+    "web-build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
