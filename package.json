@@ -4,7 +4,7 @@
   "description": "",
   "main": "window.js",
   "scripts": {
-    "start": "electron .",
+    "start": "node src/main.js",
     "web-build": "cp src/main.js web/script.js"
   },
   "repository": {
