@@ -1,3 +1,1 @@
-
-
-console.log('main');
+(()=>{console.log("main"),new Date("2015-03-25");var e=document.createElement("BUTTON");e.innerHTML="Add Phone",document.body.appendChild(e)})();
